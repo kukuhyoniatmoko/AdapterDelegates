@@ -17,17 +17,18 @@
 package com.hannesdorfmann.adapterdelegates3.sample;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+import com.hannesdorfmann.adapterdelegates.sample.R;
 import com.hannesdorfmann.adapterdelegates3.sample.model.DisplayableItem;
 import com.hannesdorfmann.adapterdelegates3.sample.model.Gecko;
 import com.hannesdorfmann.adapterdelegates3.sample.model.Snake;
 import com.hannesdorfmann.adapterdelegates3.sample.model.UnknownReptile;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import com.hannesdorfmann.adapterdelegates.sample.R;
 
 public class ReptilesActivity extends AppCompatActivity {
 

@@ -1,6 +1,6 @@
 package com.hannesdorfmann.adapterdelegates3.sample;
 
-import android.support.v7.util.DiffUtil;
+import androidx.recyclerview.widget.DiffUtil;
 
 import com.hannesdorfmann.adapterdelegates3.AsyncListDifferDelegationAdapter;
 import com.hannesdorfmann.adapterdelegates3.sample.adapterdelegates.DiffCatAdapterDelegate;

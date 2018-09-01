@@ -16,7 +16,7 @@
 
 package com.hannesdorfmann.adapterdelegates3;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import java.util.List;
 
 /**
